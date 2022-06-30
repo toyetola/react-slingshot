@@ -33,7 +33,7 @@ jobs:
       - run: npm audit
 
 workflows:
-  my_ci_workflow:
+  ex_ci_workflow:
     jobs:
       - build
       - test:
